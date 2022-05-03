@@ -3,7 +3,27 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    text-align: center;
+.button-primary {
+    color: white;
+    background-color: orangered;
+}
 
+.button-primary:hover, .button-primary:visited {
+    color: blue;
+    background-color: lightblue;
+}
+
+.subtitle-text {
+    text-align: center;
+    color: orange;
+}
+
+.title-text {
+    text-align: center;
+    text-decoration: underline;
+    color: darkred;
+}
+
+#id-selector {
+    color: white;
 }
