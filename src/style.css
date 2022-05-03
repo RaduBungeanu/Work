@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background-color: darkgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,6 +11,9 @@ html {
 .button-primary {
     color: white;
     background-color: orangered;
+    width: 80px;
+    margin: 15px;
+    padding: 5px;
 }
 
 .button-primary:hover, .button-primary:visited {
@@ -16,14 +24,125 @@ html {
 .subtitle-text {
     text-align: center;
     color: orange;
+    text-transform: capitalize;
+    padding: 15px;
 }
 
 .title-text {
     text-align: center;
-    text-decoration: underline;
     color: darkred;
+    text-transform: capitalize;
+    padding: 15px;
 }
 
-#id-selector {
+
+.section-title {
+    text-transform: capitalize;
     color: white;
+    text-decoration: solid;
+    padding: 15px;
+}
+
+.section-copy {
+    text-decoration: solid;
+    color:black;
+    padding: 15px;
+}
+
+.container {
+    width: 40rem;
+    height: 36rem;
+    background-color: lightslategray;
+    margin: 0 auto;
+    border: 0.175rem solid darkred;
+}
+.block1 {
+    background-color: orange;
+    width: 15em;
+    height: 15em;
+    position: relative;
+    left: 4em;
+    top: 2em;
+}
+
+.block2 {
+    background-color: red;
+    width: 15em;
+    height: 15em;
+    position: relative;
+    left: 21rem;
+    top: -13rem;
+}
+
+.block3 {
+    background-color: green;
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    left: 4rem;
+    top: -11rem;
+}
+
+.block4 {
+    background-color: brown;
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    left: 21rem;
+    top: -26rem;
+}
+
+.block-image {
+    width: 50%;
+    height: 50%;
+    padding: 1rem 0.5rem;
+
+}
+
+.block-copy {
+    font-size: 0.75rem;
+
+}
+
+#block1-text1 {
+    position: relative;
+    top: -8rem;
+    left: 10rem;
+    padding-right: 0.5rem;
+}
+
+#block1-text2 {
+    position: relative;
+    top: -7rem;
+    left: 10rem;
+}
+
+#block1-text3 {
+    padding: 0rem 0.5rem;
+    position: relative;
+    top: -2rem;
+}
+
+#block1-input {
+    position: relative;
+    top: -1.5rem;
+    left: 0.5rem;
+}
+
+#block1-input::placeholder {
+    color: red;
+    text-align: center;
+}
+
+#block2-image1 {
+    width: 80%;
+    height: 40%;
+    margin: 5% 10%;
+}
+
+#block2-image2 {
+    width: 80%;
+    height: 40%;
+    margin: 2.5% 10%;
+    
 }
